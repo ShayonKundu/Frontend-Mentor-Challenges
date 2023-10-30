@@ -15,7 +15,7 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     width: 20vw;
-    height: 55vh;
+    height: 60vh;
     background-color: #fff;
     border-radius: 20px;
 }
@@ -29,18 +29,18 @@ body {
 
 .card .content {
     text-align: center;
-    padding: 10%;
+    padding: 5% 15%;
 }
 
 .card .content .head {
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .card .content .desc {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .footer {
@@ -79,5 +79,24 @@ body {
     .footer {
         font-size: 14px;
         width: 95vw;
+    }
+}
+
+@media screen and (min-width: 1439px) and (max-width: 1919px) {
+    .card {
+        height: 55vh;
+    }
+
+    .card .content {
+        padding: 10%;
+    }
+
+    .card .content .head {
+        font-size: 1.3rem;
+    }
+
+    .card .content .desc {
+        font-size: 16px;
+        margin-top: 5%;
     }
 }
