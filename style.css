@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body {
+    background-color: #D3E3EB;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    height: 55vh;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.card img {
+    width: 18vw;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    border-radius: 15px;
+}
+
+.card .content {
+    text-align: center;
+    padding: 10%;
+}
+
+.card .content .head {
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.card .content .desc {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10%;
+}
+
+.footer {
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    transform: translate(-50%, -1%);
+}
+
+@media screen and (min-width: 374px) and (max-width: 1439px) {
+    .card {
+        width: 90vw;
+        height: 62.5vh;
+    }
+
+    .card img {
+        width: 85vw;
+        margin-left: 2.5vw;
+        margin-top: 2.5vw;
+    }
+
+    .card .content {
+        padding: 5%;
+    }
+
+    .card .content .head {
+        padding: 0 5%;
+        font-size: 1.5rem;
+    }
+
+    .card .content .desc {
+        margin-top: 5%;
+        font-size: 1.1rem;
+    }
+
+    .footer {
+        font-size: 14px;
+        width: 95vw;
+    }
+}
