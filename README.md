@@ -10,7 +10,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Screenshots
 
-- Mobile (width: 375px)
+- Mobile (width: 375px)   
 ![Mobile- 375px](https://github.com/ShayonKundu/QR-code-component/assets/90950526/f115e426-b94c-4795-a136-cfed6d0cc800)
 
 - Laptop (width: 1440px)
